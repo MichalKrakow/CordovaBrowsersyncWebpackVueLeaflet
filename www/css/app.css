@@ -674,28 +674,85 @@
   font-weight: 300;
   font-size: 14px; }
 
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
 body {
   background-color: #111;
   color: #ddd; }
 
-#app[data-v-36753854], .app[data-v-36753854] {
+#app[data-v-69810fa4], .app[data-v-69810fa4] {
   width: 100%;
   height: 100%;
   background: #000;
   margin: 0;
   padding: 0;
 }
-.map[data-v-36753854] {
+.map[data-v-69810fa4] {
   width: 100%;
-  height: calc(100% - 60px) !important;
+  height: calc(100% - 40px) !important;
   margin: 0;
+  padding: 0;
 }
-.info[data-v-36753854] {
-  height: 60px;
+.info[data-v-69810fa4] {
+  height: 40px;
   bottom: 0px;
   position: absolute;
   width: 100%;
   left: 0px;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 5px;
+}
+.controlls[data-v-69810fa4] {
+  z-index: 100000;
+  height: 30px;
+  bottom: 40px;
+  border-top: 2px dashed #000;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  background-color: #000;
+}
+
+.component[data-v-e88dd7a8] {
+  display: inline-block;
+  padding: 5px;
+  background-color: #000;
+  height: 20px;
+}
+.component > span[data-v-e88dd7a8] {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    color: #c00;
+    margin-top: 3px;
+}
+.component div[data-v-e88dd7a8] {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border-radius: 1px;
+    border: 1px solid #c00;
+    box-sizing: border-box;
+    vertical-align: middle;
+    position: relative;
+}
+.component div span[data-v-e88dd7a8] {
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      background-color: #660000;
+      display: block;
+      width: 16px;
+      height: 16px;
+      transition: left 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.component.on > div > span[data-v-e88dd7a8] {
+    background-color: #c00;
+    left: 11px;
 }

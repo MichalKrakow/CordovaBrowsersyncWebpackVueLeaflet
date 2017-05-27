@@ -10,10 +10,13 @@
         "cordova-plugin-browsersync": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "cordova-plugin-geolocation": {
+        "cordova-plugin-vibration": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },

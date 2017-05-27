@@ -41,6 +41,7 @@ module.exports = function(opts, cb) {
         logFileChanges: true,
         logConnections: true,
         open: false,
+        https: true,
         snippetOptions: {
             rule: {
                 match: /<\/body>/i,
