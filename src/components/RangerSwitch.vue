@@ -35,8 +35,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
-$red: #c00;
+@import "../sass/colors.sass";
 $outHard: cubic-bezier(0.230, 1.000, 0.320, 1.000);
 
 .component
